@@ -497,6 +497,9 @@ button.close::before {
 #identity-box[pageproxystate="valid"].httpsOnlyErrorPage #identity-icon {
     list-style-image: url("../icons/padlock-insecure-symbolic.svg") !important;
 }
+#identity-box[pageproxystate="valid"].certUserOverridden #identity-icon {
+    list-style-image: url("../icons/padlock-warning-symbolic.svg") !important;
+}
 .identity-popup-security-connection {
 	background-image: url("../icons/padlock-insecure-symbolic.svg") !important;
 }
